@@ -195,7 +195,8 @@ function Rocket(dna){
   this.show = function(){
     push();
     noStroke();
-    fill(130, 188, 131, 150);
+    fill(255,150);
+    //fill(130, 188, 131, 150);
     translate(this.pos.x, this.pos.y);
     rotate(this.vel.heading());
     rectMode(CENTER);
