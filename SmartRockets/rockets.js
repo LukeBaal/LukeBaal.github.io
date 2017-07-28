@@ -1,5 +1,5 @@
 var rocket;
-var lifespan = 400;
+var lifespan = 200;
 var lifeP;
 var count = 0;
 var target;
@@ -32,8 +32,8 @@ function draw(){
     generations++;
   }
 
-  fill(255);
-  rect(rx, ry, rw, rh);
+  //fill(255);
+  //rect(rx, ry, rw, rh);
 
   ellipse(target.x, target. y, 16, 16);
 }
