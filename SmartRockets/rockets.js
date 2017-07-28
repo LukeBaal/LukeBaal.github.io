@@ -31,8 +31,8 @@ function draw(){
     generations++;
   }
 
-  fill(255);
-  rect(rx, ry, rw, rh);
+  //fill(255);
+  //rect(rx, ry, rw, rh);
 
   ellipse(target.x, target. y, 16, 16);
 }
@@ -55,7 +55,6 @@ function Population(){
         maxfit = this.rockets[i].fitness;
       }
     }
-    console.log(maxfit)
 
     for (var i=0; i < this.popsize; i++){
       this.rockets[i].fitness /= maxfit;
