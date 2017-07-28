@@ -1,5 +1,5 @@
 var rocket;
-var lifespan = 200;
+var lifespan = 400;
 var lifeP;
 var count = 0;
 var target;
@@ -32,8 +32,8 @@ function draw(){
     generations++;
   }
 
-  //fill(255);
-  //rect(rx, ry, rw, rh);
+  fill(255);
+  rect(rx, ry, rw, rh);
 
   ellipse(target.x, target. y, 16, 16);
 }
@@ -169,7 +169,7 @@ function Rocket(dna){
       this.pos = target.copy();
     }
 
-   /* if (this.pos.x > rx && this.pos.x < rx + rw &&
+    /*if (this.pos.x > rx && this.pos.x < rx + rw &&
         this.pos.y > ry && this.pos.y < ry + rh){
       this.crashed = true;
     }*/
@@ -195,15 +195,15 @@ function Rocket(dna){
   this.show = function(){
     push();
     noStroke();
-    fill(255,150);
-    //fill(130, 188, 131, 150);
+    //fill(255,150);
+    fill(130, 188, 131, 150);
     translate(this.pos.x, this.pos.y);
     rotate(this.vel.heading());
     rectMode(CENTER);
     rect(0, 0, 25, 5);
-    /*triangle(12.5, -2.5, 15.5, 0, 12.5, 2.5);
+    triangle(12.5, -2.5, 15.5, 0, 12.5, 2.5);
     triangle(-12, -2, -2, -2, -12, -7)
-    triangle(-12, 2, -2, 2, -12, 7)*/
+    triangle(-12, 2, -2, 2, -12, 7)
     pop();
   }
 }
