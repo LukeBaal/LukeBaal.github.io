@@ -1,5 +1,5 @@
 var rocket;
-var lifespan = 400;
+var lifespan = 200;
 var lifeP;
 var count = 0;
 var target;
@@ -20,6 +20,7 @@ function setup(){
 }
 
 function draw(){
+  
   background(0);
   population.run();
   lifeP.html("Generation: "+generations+"<br>Cycle: "+count+"/"+lifespan);
