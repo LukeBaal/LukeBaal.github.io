@@ -169,10 +169,10 @@ function Rocket(dna){
       this.pos = target.copy();
     }
 
-    if (this.pos.x > rx && this.pos.x < rx + rw &&
+   /* if (this.pos.x > rx && this.pos.x < rx + rw &&
         this.pos.y > ry && this.pos.y < ry + rh){
       this.crashed = true;
-    }
+    }*/
 
     if (this.pos.x > width || this.pos.x < 0){
       this.crashed = true;
