@@ -200,9 +200,9 @@ function Rocket(dna){
     rotate(this.vel.heading());
     rectMode(CENTER);
     rect(0, 0, 25, 5);
-    triangle(12.5, -2.5, 15.5, 0, 12.5, 2.5);
+    /*triangle(12.5, -2.5, 15.5, 0, 12.5, 2.5);
     triangle(-12, -2, -2, -2, -12, -7)
-    triangle(-12, 2, -2, 2, -12, 7)
+    triangle(-12, 2, -2, 2, -12, 7)*/
     pop();
   }
 }
