@@ -32,8 +32,8 @@ function draw(){
     generations++;
   }
 
-  //fill(255);
-  //rect(rx, ry, rw, rh);
+  fill(255);
+  rect(rx, ry, rw, rh);
 
   ellipse(target.x, target. y, 16, 16);
 }
@@ -151,6 +151,7 @@ function Rocket(dna){
     var d = dist(this.pos.x, this.pos.y, target.x, target.y);
 
     this.fitness = map(d, 0, width, width, 0);
+    this.fitness *= pow(this.fitness, 4);
     if (this.completed){
       this.fitness *= 10;
     }
@@ -169,10 +170,10 @@ function Rocket(dna){
       this.pos = target.copy();
     }
 
-    /*if (this.pos.x > rx && this.pos.x < rx + rw &&
+    if (this.pos.x > rx && this.pos.x < rx + rw &&
         this.pos.y > ry && this.pos.y < ry + rh){
       this.crashed = true;
-    }*/
+    }
 
     if (this.pos.x > width || this.pos.x < 0){
       this.crashed = true;
