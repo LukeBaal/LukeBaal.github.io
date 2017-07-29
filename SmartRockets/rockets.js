@@ -1,5 +1,5 @@
 var rocket;
-var lifespan = 200;
+var lifespan = 400;
 var lifeP;
 var count = 0;
 var target;
@@ -56,6 +56,7 @@ function Population(){
         maxfit = this.rockets[i].fitness;
       }
     }
+    console.log(maxfit);
 
     for (var i=0; i < this.popsize; i++){
       this.rockets[i].fitness /= maxfit;
