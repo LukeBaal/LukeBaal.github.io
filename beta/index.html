@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>E-Porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/6e61293090.js"></script>
+</head>
+
+<body>
+    <nav class="nav-extended primary">
+        <div class="nav-wrapper">
+            <a href="#!" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#project1">Convex Hull</a></li>
+                <li><a href="#project2">Particle Swarm</a></li>
+                <li><a href="#project3">N-Queens Problem</a></li>
+            </ul>
+            <ul class="left hide-on-med-and-down">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <!-- <a href="#projects">Projects</a> -->
+                    <a class="dropdown-button" href="#!" data-activates="dropdown1">Projects <i class="material-icons right">arrow_drop_down</i></a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="nav-content">
+            <div class="row">
+                <!--Header-->
+                <div class="hide-on-small-only">
+                    <!-- Tablet+ screens-->
+                    <div class="col s12 m6 right-align">
+                        <img class="responsive-img" style="max-width:50%;" src="img/profile.png" alt="profile-image">
+                    </div>
+                    <div class="col s12 m6">
+                        <h3>Luke Baal</h3>
+                        <h5><span class="highlight">Software Engineer</span></h5>
+                        <div class="chip">
+                            <i class="fa fa-github"></i>
+                            <a class="black-text" href="https://github.com/LukeBaal/PublicProjects">Github</a>
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-linkedin-square"></i>
+                            <a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hide-on-med-and-up center-align">
+                    <!-- Mobile screens -->
+                    <div class="col s12 m6 ">
+                        <img class="responsive-img" style="max-width:50%;" src="img/profile.png" alt="profile-image">
+                    </div>
+                    <div class="col s12 m6">
+                        <h3>Name</h3>
+                        <h5>Software Engineer</h5>
+                        <div class="chip">
+                            <i class="fa fa-github"></i>
+                            <a class="black-text" href="https://github.com/LukeBaal/PublicProjects">Github</a>
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-linkedin-square"></i>
+                            <a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Header End-->
+        </div>
+        <br>
+    </nav>
+    <br>
+
+    <div class="fixed-action-btn hide-on-small-only">
+        <a href="#" class="btn-floating btn-large primary waves-effect">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m7">
+                <div id="about" class="card primary section scrollspy">
+                    <div class="card-content">
+                        <span class="card-title">About Me</span>
+                        <p>
+                            My name is Luke Baal and I am currently in my 3rd year of the Software Engineering program at the University of Ontario Institute of Technology (UOIT).
+                            <br><br>
+                            In my first two years here at UOIT I have been learning about various programming techniques, such as different data structures and languages, such as Java, Python, SQL, PHP, and I can quickly learn new languages.
+                            <br><br>
+                            I enrolled in the Software Engineering program because I enjoy and excel in the logical thinking and problem solving skills required in software development.
+                            <br><br>
+                            I have a 4.00 average GPA for my first two years at UOIT and as such I have made the President’s List three times and the Dean’s List once.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="projects" class="card primary section scrollspy">
+                    <!--Projects-->
+                    <div class="card-content">
+                        <span class="card-title">Projects</span>
+                        <div id="project1" class="card section scrollspy"> <!-- Project card -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/convexhull.png">
+                            </div>                            
+                            <div class="card-content black-text">
+                                <span class="card-title activator">Convex Hull<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal black-text">
+                                <span class="card-title">Convex Hull<i class="material-icons right">close</i></span>
+                                <p>I am a very simple card. I am good at containing small bits of information.</p>
+                            </div>
+                        </div> <!--Project card end -->
+
+                        <div id="project2" class="card section scrollspy"> <!-- Project card -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/swarm.png">
+                            </div>                            
+                            <div class="card-content black-text">
+                                <span class="card-title activator">Particle Swarm<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal black-text">
+                                <span class="card-title">Particle Swarm<i class="material-icons right">close</i></span>
+                                <p>I am a very simple card. I am good at containing small bits of information.</p>
+                            </div>
+                        </div> <!--Project card end -->
+
+                        <div id="project3" class="card section scrollspy"> <!-- Project card -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/queens_example.png">
+                            </div>                            
+                            <div class="card-content black-text">
+                                <span class="card-title activator">N-Queens Problem<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title black-text">N-Queens Problem<i class="material-icons right">close</i></span>
+                                <p>I am a very simple card. I am good at containing small bits of information.</p>
+                            </div>
+                        </div> <!--Project card end -->
+
+                        <div id="project4" class="card section scrollspy"> <!-- Project card -->                          
+                            <div class="card-content black-text">
+                                <span class="card-title">Career Fair Info Database</span>
+                                <p> 
+                                    A simple webpage displaying the types of students each company at the 
+                                    UOIT Reverse Career Fair, which was held on Oct 5<sup>th</sup>, 2017.
+                                    The data displayed, as well as the links to the companies homepages 
+                                    originate from a firebase database. 
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://fair-company-info.firebaseapp.com/" target="_blank">See it</a>
+                            </div>
+                        </div> <!--Project card end -->
+                        
+                    </div>
+                </div>
+                <!-- Projects End-->
+            </div>
+
+            <div class="col s12 m5">
+                <div id="contact" class="card secondary section scrollspy">
+                    <div class="card-content">
+                        <span class="card-title highlight">Contact Me</span>
+                        <div class="chip">
+                            <i class="fa fa-map-marker"></i> 
+                            Stouffville ON, Canada
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-envelope-o"></i>
+                            <a href="mailto:lukebaal2020@gmail.com">lukebaal2020@gmail.com</a>
+                        </div>
+                        <div class="chip">
+                                <i class="fa fa-envelope-o"></i>
+                                <a href="Resume.pdf"> Resume</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills" class="card secondary section scrollspy">
+                    <!-- Skills -->
+                    <div class="card-content">
+                        <span class="card-title white-text">Skills</span>
+                        <div class="chip">
+                            Python
+                        </div>
+                        <div class="chip">
+                            Javascript
+                        </div>
+                        <div class="chip">
+                            NodeJS
+                        </div>
+                        <br>
+                        <div class="chip">
+                            HTML
+                        </div>
+                        <div class="chip">
+                            CSS
+                        </div>
+                        <div class="chip">
+                            PHP
+                        </div>
+                        <br>
+                        <div class="chip">
+                            SQL
+                        </div>
+                        <div class="chip">
+                            Java
+                        </div>
+                        <div class="chip">
+                            C++
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <!-- Skills End -->
+
+                <div id="education" class="card secondary darken-4 section scrollspy">
+                    <div class="card-content white-text">
+                        <span class="card-title">Education</span>
+                        <p>
+                            <i class="fa fa-graduation-cap"></i>
+                            3<sup>rd</sup> Year Software Engineering  Student - 
+                            University of Ontario Institute of Technology(UOIT)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row primary valign-wrapper">
+            <div class="col s6">
+                <p class="left">Copyright &copy 2017</p>
+            </div>
+            <div class="col s6 right-align hide-on-med-and-up">
+                <a class="btn-flat white-text" href="#">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.button-collapse').sideNav();
+            $(".dropdown-button").dropdown();
+            $('.scrollspy').scrollSpy();
+
+            $('.side-nav li').click(function () {
+                $('.button-collapse').sideNav('hide');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: #FDFAF4 ;
+}
+
+
+.primary{
+    background-color: #4A525A;
+    color: #FDFBF6;
+}
+
+nav.primary, .fixed-action-btn a {
+    background-color: #274060;
+}
+
+.secondary{
+    
+    background-color: #444F66;
+}
+
+.highligh-primary{
+    background-color: #cac2b5;
+}
+
+.bright{
+    background-color: #ECA72C;
+}
+
+.highlight{
+    background-color: #ECA72C;
+    color:black;
+    border-radius: 5px;
+    padding: 0.1em 0.25em;
+    margin-bottom: 0.5em;
+    /* border-bottom: 3px solid #011936;     */
+}
+
