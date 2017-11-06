@@ -3,9 +3,9 @@
         "Illness": " Stomach Flu",
         "Start": "2011-07-03",
         "End": null,
-        "Medication": " Kim Possible",
-        "Physician": " Vomit",
-        "Symptoms": "9",
+        "Medication": "Advil",
+        "Physician": "Kim Possible",
+        "Symptoms": "Vomit",
         "CaseN": 0
     }, {
         "PHcn": 1211122,
