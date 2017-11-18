@@ -34,3 +34,20 @@ nav.primary, .fixed-action-btn a {
     /* border-bottom: 3px solid #011936;     */
 }
 
+a{
+    text-decoration: none;
+}
+
+nav .nav-content{
+    padding: 2em;
+}
+
+#canvas-holder{
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    margin-top: 0.5em;
+}
+
