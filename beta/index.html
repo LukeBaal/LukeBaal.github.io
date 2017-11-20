@@ -9,12 +9,6 @@
     <link rel="icon" href="../img/profile.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://use.fontawesome.com/6e61293090.js"></script>
-    <script src="swarm/libraries/p5.js"></script>
-    <script src="swarm/libraries/p5.dom.js"></script>
-    <script src="swarm/sketch.js"></script>
-    <script src="swarm/target.js"></script>
-    <script src="swarm/neighbourhood.js"></script>
-    <script src="swarm/particle.js"></script>
 </head>
 
 <body>
@@ -163,7 +157,7 @@
                 <div id="projects" class="card primary section scrollspy black-text">
                     <!--Projects-->
                     <div class="card-content">
-                        <span class="card-title">Projects</span>
+                        <span class="card-title white-text">Projects</span>
                         <div id="project1" class="card section scrollspy">
                             <!-- Project card -->
                             <div class="card-image waves-effect waves-block waves-light">
@@ -185,16 +179,6 @@
                             </div>
                         </div>
                         <!--Project card end -->
-
-                        <!-- Modal Structure -->
-                        <div id="modal1" class="modal modal-fixed-footer">
-                            <div class="modal-content">
-                                <div id="canvas-holder"></div>
-                            </div>
-                            <div class="modal-footer black-text">
-                                <a href="#!" class="modal-action modal-close waves-effect btn-flat">Close</a>
-                            </div>
-                        </div>
 
                         <div id="project2" class="card section scrollspy black-text">
                             <!-- Project card -->
@@ -233,7 +217,7 @@
                                 </p>
                             </div>
                             <div class="card-action">
-                                <a class="waves-effect waves-light modal-trigger" href="#modal1">See it</a>
+                                <a class="waves-effect waves-light" href="swarm/index.html">See it</a>
                             </div>
                         </div>
                         <!--Project card end -->
@@ -384,7 +368,6 @@
             $('.side-nav li').click(function () {
                 $('.button-collapse').sideNav('hide');
             });
-            $('.modal').modal();
         });
     </script>
 </body>
