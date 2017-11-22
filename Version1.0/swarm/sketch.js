@@ -1,8 +1,7 @@
 let tar;
 let pop;
 function setup() {
-	let canvas = createCanvas(width*4, height*4);
-	canvas.parent('canvas-holder');
+	createCanvas(800, 800);
 	tar = new Target();
 	pop = new Neighbourhood();
 

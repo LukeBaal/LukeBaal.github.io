@@ -1,257 +1,375 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-<head>
-    <title>Luke Baal's ePortfolio</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+<html>
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="icon" href="assets/images/profile.png">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>E-Porfolio</title>    
+    <link rel="icon" href="../img/profile.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/6e61293090.js"></script>
 </head>
 
 <body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-        <div class="container">
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Luke Baal" style="width:300px; height:300px"/>
-            <div class="profile-content pull-left">
-                <h1 class="name">Luke Baal</h1>
-                <h2 class="desc">Software Engineering Student at UOIT</h2>
-                <ul class="social list-inline">
-                    <li><a href="https://www.linkedin.com/in/luke-baal-a53506134/"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="last-item"><a href="https://github.com/LukeBaal/PublicProjects"><i class="fa fa-github-alt"></i></a></li>
-                </ul>
-            </div><!--//profile-->
-            <!-- <a class="btn btn-cta-primary pull-right" href="mailto:lukebaal2020@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a> -->
-        </div><!--//container-->
-    </header><!--//header-->
+    <nav class="nav-extended primary">
+        <div class="nav-wrapper">
+            <a href="#!" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#projects">Projects<span class="sr-only">(current)</span></a></li>
-                    <li><a href="swarm/index.html">Swarm<span class="sr-only">(current)</span></a></li>
-                    </ul>
-            </div>
-            <!--/.navbar-collapse -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a href="#project1">Convex Hull</a>
+                </li>
+                <li>
+                    <a href="#project2">Particle Swarm</a>
+                </li>
+                <li>
+                    <a href="#project3">N-Queens Problem</a>
+                </li>
+                <li>
+                    <a href="#project4">Career Fair Database</a>
+                </li>
+            </ul>
+            <ul class="left hide-on-med-and-down">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <!-- <a href="#projects">Projects</a> -->
+                    <a class="dropdown-button" href="#!" data-activates="dropdown1">Projects
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container-fluid -->
+        <!-- <br> -->
+        <div class="nav-content">
+            <div class="row">
+                <!--Header-->
+                <div class="hide-on-small-only">
+                    <!-- Tablet+ screens-->
+                    <div class="col s12 m6 right-align">
+                        <img class="responsive-img" style="max-width:30%;" src="img/profile.png" alt="profile-image">
+                    </div>
+                    <div class="col s12 m6">
+                        <h3>Luke Baal</h3>
+                        <h5>
+                            <span class="highlight">Software Engineer</span>
+                        </h5>
+                        <div class="chip">
+                            <i class="fa fa-github"></i>
+                            <a class="black-text" href="https://github.com/LukeBaal/PublicProjects">Github</a>
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-linkedin-square"></i>
+                            <a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hide-on-med-and-up center-align">
+                    <!-- Mobile screens -->
+                    <div class="col s12 m6 ">
+                        <img class="responsive-img" style="max-width:50%;" src="img/profile.png" alt="profile-image">
+                    </div>
+                    <div class="col s12 m6">
+                        <h3>Luke Baal</h3>
+                        <h5>Software Engineer</h5>
+                        <div class="chip">
+                            <i class="fa fa-github"></i>
+                            <a class="black-text" href="https://github.com/LukeBaal/PublicProjects">Github</a>
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-linkedin-square"></i>
+                            <a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Header End-->
+        </div>
+        <!-- <br> -->
     </nav>
-    <!-- NAVBAR -->
+    <br>
 
-    <div class="container sections-wrapper">
+    <div class="fixed-action-btn hide-on-small-only">
+        <a href="#" class="btn-floating btn-large primary waves-effect">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <div class="container">
         <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>
-                              My name is Luke Baal and I am currently in my 3rd year of the Software Engineering program at the University of Ontario Institute of Technology (UOIT).
-                              In my first two years here at UOIT I have been learning about various programming techniques, such as different data structures and languages, such as Java, Python, SQL, and PHP to name a few.
-                              Furthermore, I have been introduced to enough programming techniques and languages that I can quickly learn new languages and methods.
-                              I enrolled in the Software Engineering program because I enjoy and excel in the logical thinking and problem solving skills required in software development.
-                              As my transcript shows, I have a 4.00 average GPA for my first two years at UOIT and as such I have made the President’s List three times and the Dean’s List once.
-                            </p>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+            <div class="col s12 m7">
+                <div id="about" class="card primary section scrollspy">
+                    <div class="card-content">
+                        <span class="card-title">About Me</span>
+                        <p>
+                            My name is Luke Baal and I am currently in my 3rd year of the Software Engineering program at the University of Ontario Institute
+                            of Technology (UOIT).
+                            <br>
+                            <br> In my first three years here at UOIT I have been learning about various programming techniques,
+                            such as different data structures and languages, such as Java, Python, SQL, PHP, and I can quickly
+                            learn new languages.
+                            <br>
+                            <br> I enrolled in the Software Engineering program because I enjoy and excel in the logical thinking
+                            and problem solving skills required in software development.
+                            <br>
+                            <br> I have a 4.00 average GPA for my first two years at UOIT and as such I have made the President’s
+                            List three times and the Dean’s List once.
+                        </p>
+                    </div>
+                </div>
 
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 id="projects" class="heading">Latest Projects</h2>
-                        <div class="content">
-
-                            <!-- <div class="item featured text-center">
-                                <h3 class="title"><a href="http://themapleleaf.me" target="_blank">Themapleleaf.me</a></h3>
-                                <p class="summary">A Toronto sports website featuring a SQL database, google analytics, and more</p>
-                                <div class="featured-image">
-                                    <a href="http://themapleleaf.me" target="_blank">
-                                    <img class="img-responsive project-image center-block" src="assets/images/themapleleaf.PNG" alt="themapleleaf" style="width:400px;height:200px"/>
-                                    </a>
-                                </div>
-
-                                <div class="desc text-left">
-                                    <p>Web Programming group project. This website was made by me and three others mostly from scratch</p>
-                                </div>
-                            </div> -->
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/themapleleaf.PNG" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">Themapleleaf.me</h3>
-                                    <p>A Toronto sports themed website featuring a SQL database, google analytics, and more</p>
-                                    <p>Web Programming group project. This website was made by me and three others mostly from scratch</p>
-                                    <p><a class="more-link" href="https:themapleleaf.me" target="_blank"><i class="fa fa-external-link"></i>See the site</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/convexhull.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">Convex Hull Algorithm</h3>
-                                    <p>Given a Comma Seperated Value (CSV) file of 2-Dimensional Points, this program constructs a convex hull around those points</p>
-                                    <p><a class="more-link" href="https://github.com/LukeBaal/PublicProjects/tree/master/convexhull" target="_blank"><i class="fa fa-external-link"></i>Learn more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/swarm.png" alt="GA swarm" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">Genetic Algorithm Particle Swarm</h3>
-                                    <p>Using a genetic algorithm, a set of particles dynamically converge to the mouse's location</p>
-                                    <p><a class="more-link" href="swarm/index.html" target="_blank">Particle Swarm</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <!-- <img class="img-responsive project-image" src="assets/images/" alt="project name" /> -->
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">Career Fair Info Database</h3>
-                                    <p>A database with the info for the UOIT career fair using Firebase</p>
-                                    <p><a class="more-link" href="https://fair-company-info.firebaseapp.com" target="_blank"><i class="fa fa-external-link"></i>Learn more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/truthTable.PNG" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/LukeBaal/PublicProjects/tree/master/TruthTableWebGenerator" target="_blank">Digital Sytem Truth Table Generator</a></h3>
-                                    <p>A Web program to generate a truth table for a digital systems expression</p>
-                                    <p><a class="more-link" href="https://github.com/LukeBaal/PublicProjects/tree/master/TruthTableWebGenerator" target="_blank"><i class="fa fa-external-link"></i>Learn more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/queens_example.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/LukeBaal/PublicProjects/tree/master/nQueens" target="_blank">Eight Queens Problem</a></h3>
-                                    <p>A python program that prints the solutions for place Eight Queens on an 8x8 board, such that no queen can capture another.</p>
-                                    <p><a class="more-link" href="https://github.com/LukeBaal/PublicProjects/tree/master/nQueens" target="_blank"><i class="fa fa-external-link"></i>Learn more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-
-            </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Stouffville ON, Canada</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:lukebaal2020@gmail.com">lukebaal2020@gmail.com</a></li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Resume:</span><a href="Resume.pdf">Resume</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
-
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <div class="skillset">
-
-                                <div class="item">
-                                    <h3 class="level-title">Python, Java,  &amp; C++ <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info..."></span></h3>
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Javascript, PHP &amp; SQL<span class="level-label"></span></h3>
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3<span class="level-label"></span></h3>
-                                </div><!--//item-->
-
+                <div id="projects" class="card primary section scrollspy black-text">
+                    <!--Projects-->
+                    <div class="card-content">
+                        <span class="card-title white-text">Projects</span>
+                        <div id="project1" class="card section scrollspy">
+                            <!-- Project card -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/convexhull.png">
                             </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                            <div class="card-content">
+                                <span class="card-title activator">Convex Hull
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">Convex Hull
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>
+                                    A Convex Hull is a conves shape made around a given data set using points from the dataset as vertices. The most common applications
+                                    for a convex hull is in image processing.
+                                </p>
+                            </div>
+                        </div>
+                        <!--Project card end -->
 
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> 2nd Year Software Engineering Student</h3>
-                                <h4 class="university">University of Ontario Institute of Technology (UOIT)<span class="year">(2015-2017)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        <div id="project2" class="card section scrollspy black-text">
+                            <!-- Project card -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/swarm.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Particle Swarm
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">Particle Swarm
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>
+                                    Using the cursor as a target, the particles in the swarm converge towards the cursor using a genetic algorithm. A typical
+                                    genetic algorithm is made up of three parts.
+                                    <br>
+                                    <br>
+                                    <strong>Selection:</strong>
+                                    Each generation, or iteration of the algorithm, the particle closest to the target is determined.
+                                    <br>
+                                    <br>
+                                    <strong>Crossover:</strong>
+                                    Next, the other particles move towards the best particle by changing their position to be the crossover of the best particle
+                                    and their current position.
+                                    <br>
+                                    <br>
+                                    <strong>Mutation:</strong>
+                                    During the crossover process, there is a random chance of a particles position to get a random offset. This is called mutation
+                                    and though may not seem desirable it is crucial. Without mutation, the particles would
+                                    converge on the particle closest to the target and never move, even if the target is
+                                    moved. This occurs, since the particles are converging to best particle, not the target,
+                                    so if all particles share the same position, nothing happens.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a class="waves-effect waves-light" href="swarm/index.html">See it</a>
+                            </div>
+                        </div>
+                        <!--Project card end -->
 
-            </div><!--//secondary-->
-        </div><!--//row-->
-    </div><!--//masonry-->
+                        <div id="project3" class="card section scrollspy black-text">
+                            <!-- Project card -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/queens_example.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">N-Queens Problem
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">N-Queens Problem
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>
+                                    Given an NxN board, we need to arange N Queens on a chess board such that
+                                    no queen can capture another. For example, for N=8 (As in the picture) 8 queens
+                                    are aranged on a 8x8 chess board such that no queen can capture another.
+                                    <br>
+                                    <br>
+                                    The number of solutions for some values of N are as follows:
+                                    <ul class="collection">
+                                        <li class="collection-item">N=5: 10 solutions</li>
+                                        <li class="collection-item">N=6: 4 solutions</li>
+                                        <li class="collection-item">N=7: 40 solutions</li>
+                                        <li class="collection-item">N=8: 92 solutions</li>
+                                        <li class="collection-item">N=9: 352 solutions</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <!--Project card end -->
 
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+                        <div id="project4" class="card section scrollspy">
+                            <!-- Project card -->
+                            <div class="card-content black-text">
+                                <span class="card-title">Career Fair Info Database</span>
+                                <p>
+                                    A simple webpage displaying the types of students each company at the UOIT Reverse Career Fair, which was held on Oct 5
+                                    <sup>th</sup>, 2017. The data displayed, as well as the links to the companies homepages originate
+                                    from a firebase database.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://fair-company-info.firebaseapp.com/" target="_blank">See it</a>
+                            </div>
+                        </div>
+                        <!--Project card end -->
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+                    </div>
+                </div>
+                <!-- Projects End-->
+            </div>
 
+            <div class="col s12 m5">
+                <div id="contact" class="card secondary section scrollspy">
+                    <div class="card-content">
+                        <span class="card-title highlight">Contact Me</span>
+                        <div class="chip">
+                            <i class="fa fa-map-marker"></i>
+                            Stouffville ON, Canada
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-envelope-o"></i>
+                            <a href="mailto:lukebaal2020@gmail.com">lukebaal2020@gmail.com</a>
+                        </div>
+                        <div class="chip">
+                            <i class="fa fa-envelope-o"></i>
+                            <a href="Resume.pdf"> Resume</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills" class="card secondary section scrollspy">
+                    <!-- Skills -->
+                    <div class="card-content">
+                        <span class="card-title white-text">Skills</span>
+                        <div class="chip">
+                            <img src="img/icons8-python.png"> Python
+                        </div>
+                        <div class="chip">
+                            <img src="img/jsicon.png"> Javascript
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-nodejs.png"> NodeJS
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-html-5.png"> HTML
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-css3.png"> CSS
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-php.png"> PHP
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-sql.png"> SQL
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-java.png"> Java
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-c++.png"> C++
+                        </div>
+                        <div class="chip">
+                            <img src="img/icons8-c.png"> C
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills End -->
+
+                <div id="education" class="card secondary darken-4 section scrollspy">
+                    <div class="card-content white-text">
+                        <span class="card-title">Education</span>
+                        <p>
+                            <i class="fa fa-graduation-cap"></i>
+                            3
+                            <sup>rd</sup> Year Software Engineering Student - University of Ontario Institute of Technology(UOIT)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row primary valign-wrapper">
+            <div class="col s6">
+                <p class="left">Copyright &copy 2017</p>
+            </div>
+            <div class="col s6 right-align hide-on-med-and-up">
+                <a class="btn-flat white-text" href="#">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.button-collapse').sideNav();
+            $(".dropdown-button").dropdown();
+            $('.scrollspy').scrollSpy();
+
+            $('.side-nav li').click(function () {
+                $('.button-collapse').sideNav('hide');
+            });
+        });
+    </script>
 </body>
+
 </html>
