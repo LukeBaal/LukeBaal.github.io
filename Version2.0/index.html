@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<title>E-Portfolio</title>
+	<link rel="icon" href="../img/profile.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://use.fontawesome.com/6e61293090.js"></script>
+</head>
+
+<body>
+	<nav class="nav-extended primary">
+		<div class="nav-wrapper">
+			<a href="#!" data-activates="mobile-demo" class="button-collapse">
+				<i class="material-icons">menu</i>
+			</a>
+
+			<ul id="dropdown1" class="dropdown-content">
+				<li>
+					<a href="#project1">Hospital DBMS</a>
+				</li>
+				<li>
+					<a href="#project2">Convex Hull</a>
+				</li>
+				<li>
+					<a href="#project3">Particle Swarm</a>
+				</li>
+				<li>
+					<a href="#project4">N-Queens Problem</a>
+				</li>
+				<li>
+					<a href="#project5">Career Fair Database</a>
+				</li>
+			</ul>
+			<ul class="left hide-on-med-and-down">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+				<li>
+					<!-- <a href="#projects">Projects</a> -->
+					<a class="dropdown-button" href="#!" data-activates="dropdown1">Projects
+						<i class="material-icons right">arrow_drop_down</i>
+					</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+			</ul>
+		</div>
+		<!-- <br> -->
+		<div class="nav-content">
+			<div class="row">
+				<!--Header-->
+				<div class="hide-on-small-only">
+					<!-- Tablet+ screens-->
+					<div class="col s12 m6 right-align">
+						<img class="responsive-img" style="max-width:30%;" src="img/profile.png" alt="profile-image">
+					</div>
+					<div class="col s12 m6">
+						<h3>Luke Baal</h3>
+						<h5>
+							<span class="highlight">Software Engineer</span>
+						</h5>
+						<div class="chip">
+							<i class="fa fa-github"></i>
+							<a class="black-text" href="https://github.com/LukeBaal/PublicProjects">Github</a>
+						</div>
+						<div class="chip">
+							<i class="fa fa-linkedin-square"></i>
+							<a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+				<div class="hide-on-med-and-up center-align">
+					<!-- Mobile screens -->
+					<div class="col s12 m6 ">
+						<img class="responsive-img" style="max-width:50%;" src="img/profile.png" alt="profile-image">
+					</div>
+					<div class="col s12 m6">
+						<h3>Luke Baal</h3>
+						<h5>Software Engineer</h5>
+						<div class="chip">
+							<i class="fa fa-github"></i>
+							<a class="black-text" href="https://github.com/LukeBaal/PublicProjects">Github</a>
+						</div>
+						<div class="chip">
+							<i class="fa fa-linkedin-square"></i>
+							<a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+		</div>
+		<!-- <br> -->
+	</nav>
+	<br>
+
+	<div class="fixed-action-btn hide-on-small-only">
+		<a href="#" class="btn-floating btn-large primary waves-effect">
+			<i class="large material-icons">arrow_upward</i>
+		</a>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12 m7">
+				<div id="about" class="card primary section scrollspy">
+					<div class="card-content">
+						<span class="card-title">About Me</span>
+						<p>
+							My name is Luke Baal and I am currently in my 3rd year of the Software Engineering program at the University of Ontario Institute
+							of Technology (UOIT).
+							<br>
+							<br> In my first three years here at UOIT I have been learning about various programming techniques, such as different
+							data structures and languages, such as Java, Python, SQL, PHP, and I can quickly learn new languages.
+							<br>
+							<br> I enrolled in the Software Engineering program because I enjoy and excel in the logical thinking and problem solving
+							skills required in software development.
+							<br>
+							<br> I have a 4.00 average GPA for my first 2.5 years at UOIT and as such I have made the President’s List three times
+							and the Dean’s List once.
+						</p>
+					</div>
+				</div>
+
+				<div id="projects" class="card primary section scrollspy black-text">
+					<!--Projects-->
+					<div class="card-content">
+						<span class="card-title white-text">Projects</span>
+						<div id="project1" class="card section scrollspy">
+							<!-- Project card -->
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/hospital_dbms.PNG">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Hospital Database Management System
+									<i class="material-icons right">more_vert</i>
+								</span>
+							</div>
+							<div class="card-action">
+								<a class="waves-effect waves-light" href="https://lukeibaal.github.io/">See it</a>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title">Hospital DBMS
+									<i class="material-icons right">close</i>
+								</span>
+								<p>
+									A Hospital Database Mangement System using the Vuejs framework and Google's Firebase. The purpose of this system is to allow
+									patients and visitors to locate the rooms of a patient they want to visit and to allow doctors and staff to see
+									patient records, the status of each room, patient/doctor/staff info, etc.
+								</p>
+							</div>
+						</div>
+						<div id="project2" class="card section scrollspy">
+							<!-- Project card -->
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/convexhull.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Convex Hull
+									<i class="material-icons right">more_vert</i>
+								</span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title">Convex Hull
+									<i class="material-icons right">close</i>
+								</span>
+								<p>
+									A Convex Hull is a conves shape made around a given data set using points from the dataset as vertices. The most common applications
+									for a convex hull is in image processing.
+								</p>
+							</div>
+						</div>
+						<!--Project card end -->
+
+						<div id="project3" class="card section scrollspy black-text">
+							<!-- Project card -->
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/swarm.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Particle Swarm
+									<i class="material-icons right">more_vert</i>
+								</span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title">Particle Swarm
+									<i class="material-icons right">close</i>
+								</span>
+								<p>
+									Using the cursor as a target, the particles in the swarm converge towards the cursor using a genetic algorithm. A typical
+									genetic algorithm is made up of three parts.
+									<br>
+									<br>
+									<strong>Selection:</strong>
+									Each generation, or iteration of the algorithm, the particle closest to the target is determined.
+									<br>
+									<br>
+									<strong>Crossover:</strong>
+									Next, the other particles move towards the best particle by changing their position to be the crossover of the best particle
+									and their current position.
+									<br>
+									<br>
+									<strong>Mutation:</strong>
+									During the crossover process, there is a random chance of a particles position to get a random offset. This is called mutation
+									and though may not seem desirable it is crucial. Without mutation, the particles would converge on the particle
+									closest to the target and never move, even if the target is moved. This occurs, since the particles are converging
+									to best particle, not the target, so if all particles share the same position, nothing happens.
+								</p>
+							</div>
+							<div class="card-action">
+								<a class="waves-effect waves-light" href="swarm/index.html">See it</a>
+							</div>
+						</div>
+						<!--Project card end -->
+
+						<div id="project4" class="card section scrollspy black-text">
+							<!-- Project card -->
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/queens_example.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">N-Queens Problem
+									<i class="material-icons right">more_vert</i>
+								</span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title">N-Queens Problem
+									<i class="material-icons right">close</i>
+								</span>
+								<p>
+									Given an NxN board, we need to arange N Queens on a chess board such that no queen can capture another. For example, for
+									N=8 (As in the picture) 8 queens are aranged on a 8x8 chess board such that no queen can capture another.
+									<br>
+									<br> The number of solutions for some values of N are as follows:
+									<ul class="collection">
+										<li class="collection-item">N=5: 10 solutions</li>
+										<li class="collection-item">N=6: 4 solutions</li>
+										<li class="collection-item">N=7: 40 solutions</li>
+										<li class="collection-item">N=8: 92 solutions</li>
+										<li class="collection-item">N=9: 352 solutions</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<!--Project card end -->
+
+						<div id="project5" class="card section scrollspy">
+							<!-- Project card -->
+							<div class="card-content black-text">
+								<span class="card-title">Career Fair Info Database</span>
+								<p>
+									A simple webpage displaying the types of students each company at the UOIT Reverse Career Fair, which was held on Oct 5
+									<sup>th</sup>, 2017. The data displayed, as well as the links to the companies homepages originate from a firebase database.
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="https://fair-company-info.firebaseapp.com/" target="_blank">See it</a>
+							</div>
+						</div>
+						<!--Project card end -->
+
+					</div>
+				</div>
+				<!-- Projects End-->
+			</div>
+
+			<div class="col s12 m5">
+				<div id="contact" class="card secondary section scrollspy">
+					<div class="card-content">
+						<span class="card-title highlight">Contact Me</span>
+						<div class="chip">
+							<i class="fa fa-map-marker"></i>
+							Stouffville ON, Canada
+						</div>
+						<div class="chip">
+							<i class="fa fa-envelope-o"></i>
+							<a href="mailto:lukebaal2020@gmail.com">lukebaal2020@gmail.com</a>
+						</div>
+						<div class="chip">
+							<i class="fa fa-envelope-o"></i>
+							<a href="Resume.pdf"> Resume</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="skills" class="card secondary section scrollspy">
+					<!-- Skills -->
+					<div class="card-content">
+						<span class="card-title white-text">Skills</span>
+						<div class="chip">
+							<img src="img/icons8-python.png"> Python
+						</div>
+						<div class="chip">
+							<img src="img/jsicon.png"> Javascript
+						</div>
+						<div class="chip">
+							<img src="img/icons8-nodejs.png"> NodeJS
+						</div>
+						<div class="chip">
+							<img src="img/icons8-html-5.png"> HTML
+						</div>
+						<div class="chip">
+							<img src="img/icons8-css3.png"> CSS
+						</div>
+						<div class="chip">
+							<img src="img/icons8-php.png"> PHP
+						</div>
+						<div class="chip">
+							<img src="img/icons8-sql.png"> SQL
+						</div>
+						<div class="chip">
+							<img src="img/icons8-java.png"> Java
+						</div>
+						<div class="chip">
+							<img src="img/icons8-c++.png"> C++
+						</div>
+						<div class="chip">
+							<img src="img/icons8-c.png"> C
+						</div>
+					</div>
+				</div>
+				<!-- Skills End -->
+
+				<div id="education" class="card secondary darken-4 section scrollspy">
+					<div class="card-content white-text">
+						<span class="card-title">Education</span>
+						<p>
+							<i class="fa fa-graduation-cap"></i>
+							3
+							<sup>rd</sup> Year Software Engineering Student - University of Ontario Institute of Technology(UOIT)
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="row primary valign-wrapper">
+			<div class="col s6">
+				<p class="left">Copyright &copy 2017</p>
+			</div>
+			<div class="col s6 right-align hide-on-med-and-up">
+				<a class="btn-flat white-text" href="#">Back to top</a>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.button-collapse').sideNav();
+			$(".dropdown-button").dropdown();
+			$('.scrollspy').scrollSpy();
+
+			$('.side-nav li').click(function () {
+				$('.button-collapse').sideNav('hide');
+			});
+		});
+	</script>
+</body>
+
+</html>
