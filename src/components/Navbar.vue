@@ -50,15 +50,15 @@
               </h5>
               <div class="chip">
                 <i class="fab fa-github"></i>
-                <a class="black-text" href="https://github.com/LukeBaal" target="_blank">GitHub</a>
+                <a class="black-text" href="https://github.com/LukeBaal" target="_blank"> GitHub</a>
               </div>
               <div class="chip">
                 <i class="fab fa-gitlab"></i>
-                <a class="black-text" href="https://gitlab.com/LukeBaal" target="_blank">GitLab</a>
+                <a class="black-text" href="https://gitlab.com/LukeBaal" target="_blank"> GitLab</a>
               </div>
               <div class="chip">
                 <i class="fab fa-linkedin"></i>
-                <a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134" target="_blank">LinkedIn</a>
+                <a class="black-text" href="https://www.linkedin.com/in/luke-baal-a53506134" target="_blank"> LinkedIn</a>
               </div>
             </div>
           </div>

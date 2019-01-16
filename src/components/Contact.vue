@@ -8,11 +8,13 @@
       </div>
       <div class="chip">
         <i class="fa fa-envelope"></i>
+        {{" "}}
         <a href="mailto:lukebaal2020@gmail.com">lukebaal2020@gmail.com</a>
       </div>
       <div class="chip">
         <i class="fa fa-file-alt"></i>
-        <a href="/resume.pdf"> Resume</a>
+        {{" "}}
+        <a href="/Resume.pdf">Resume</a>
       </div>
     </div>
   </div>
@@ -20,6 +22,6 @@
 
 <script>
 export default {
-  name: 'Contact'
-}
+  name: "Contact"
+};
 </script>

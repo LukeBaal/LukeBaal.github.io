@@ -4,7 +4,8 @@
       <span class="card-title">Education</span>
       <p>
         <i class="fa fa-graduation-cap"></i>
-        3<sup>rd</sup> Year Software Engineering Student - University of Ontario Institute of Technology(UOIT)
+        4
+        <sup>th</sup> Year Software Engineering Student - University of Ontario Institute of Technology(UOIT)
       </p>
     </div>
   </div>
@@ -12,6 +13,6 @@
 
 <script>
 export default {
-  name: 'Education'
-}
+  name: "Education"
+};
 </script>
