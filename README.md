@@ -1,4 +1,3 @@
-# LukeBaal.github.io
+# E-Portfolio
 
-My E-portfolio made using VueJS and Materializecss.
-
+My E-portfolio made usign VueJS and Firestore to show my projects, skills, and resume
