@@ -13,13 +13,25 @@
         <img src="img/icons8-nodejs.png"> NodeJS
       </div>
       <div class="chip">
+        <img src="img/icons8-docker-filled-48.png"> Docker
+      </div>
+      <div class="chip">
+        <img src="img/react.svg"> React
+      </div>
+      <div class="chip">
+        <img src="img/icons8-angularjs-48.png"> Angular
+      </div>
+      <div class="chip">
+        <img src="img/vue.png"> VueJS
+      </div>
+      <div class="chip">
         <img src="img/icons8-html-5.png"> HTML
       </div>
       <div class="chip">
         <img src="img/icons8-css3.png"> CSS
       </div>
       <div class="chip">
-        <img src="img/icons8-php.png"> PHP
+        <img src="img/icons8-mongodb-48.png"> MongoDB
       </div>
       <div class="chip">
         <img src="img/icons8-sql.png"> SQL
@@ -28,10 +40,13 @@
         <img src="img/icons8-java.png"> Java
       </div>
       <div class="chip">
+        <img src="img/icons8-c.png"> C
+      </div>
+      <div class="chip">
         <img src="img/icons8-c++.png"> C++
       </div>
       <div class="chip">
-        <img src="img/icons8-c.png"> C
+        <img src="img/icons8-php.png"> PHP
       </div>
     </div>
   </div>
@@ -39,6 +54,6 @@
 
 <script>
 export default {
-  name: 'Skills'
+  name: "Skills"
 };
 </script>
